@@ -32,3 +32,21 @@ ip address
 # Then from another machine on the same network, connect to jetson nano using ssh or putty
 ssh nvidia@192.168.29.171
 ```
+
+
+## Camera setup and testing
+
+1. Connect mono/stereo camera via CSI port.
+2. Test via nvgstcapture utility. Refer this [link](https://developer.nvidia.com/embedded/learn/tutorials/first-picture-csi-usb-camera).
+
+### CSI camera
+```
+nvgstcapture-1.0
+
+nvgstcapture-1.0 --orientation 2
+
+nvgstcapture-1.0 --orientation 2 --sensor-id=0 # for /dev/video0 [default]
+
+nvgstcapture-1.0 --orientation 2 --sensor-id=1 # for /dev/video1
+
+```
