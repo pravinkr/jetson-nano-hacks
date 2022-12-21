@@ -29,5 +29,6 @@ sudo apt install ros-melodic-desktop-full
 
 ip address
 
+# Then from another machine on the same network, connect to jetson nano using ssh or putty
 ssh nvidia@192.168.29.171
 ```
