@@ -2,10 +2,11 @@
 Jetson nanon setup and other utilities
 
 ## Steps for jetson nano setup to make it ready for robitics vision. 
-Jetson Nano I got is from seedstudio with J101 carrier board. It comes with 16 GB emmc storage and pre-installed ubuntu OS.
+Jetson Nano I got is from [seedstudio with J101 carrier board](https://www.seeedstudio.com/NVIDIAr-Jetson-Nanotm-Developer-Kit-p-2916.html). It comes with 16 GB emmc storage and pre-installed ubuntu OS.
 
 1. Use atleast 64 GB sdcard.
-2. install cuda thru [Jetpack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool)
+2. Flash sdcard with jetson pack. FOllow this [link](https://wiki.seeedstudio.com/Flash_System_on_SD_card/) and boot from sdcard instead of emmc.
+3. install cuda thru [Jetpack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool)
 ```
 sudo apt update
 sudo apt install nvidia-jetpack
