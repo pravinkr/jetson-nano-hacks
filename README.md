@@ -25,8 +25,8 @@ sudo apt install ros-melodic-desktop-full
 ```
 7. remote login/ssh into jetson nano machine
 ```
-# do ip address on jetson nano and note down the ip address. should start with 192... like 192.168.29.171
-```
+#do ip address on jetson nano and note down the ip address. should start with 192... like 192.168.29.171
+
 ip address
 
 ssh nvidia@192.168.29.171
