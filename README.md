@@ -6,7 +6,7 @@ Jetson Nano I got is from [seedstudio with J101 carrier board](https://www.seeed
 
 1. Use atleast 64 GB sdcard.
 2. Flash sdcard with jetson pack. FOllow this [link](https://wiki.seeedstudio.com/Flash_System_on_SD_card/) and boot from sdcard instead of emmc.
-3. Ensure ``` sudo apt update ``` doesn't raise any error. In case it does, replace sources.list at /etc/apt/ directory with this [one](!sources.list).
+3. Ensure ``` sudo apt update ``` doesn't raise any error. In case it does, replace sources.list at /etc/apt/ directory with this ([!sources.list](https://github.com/pravinkr/jetson-nano-hacks/blob/main/sources.list)).
 4. install cuda thru [Jetpack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool)
 ```
 sudo apt update
