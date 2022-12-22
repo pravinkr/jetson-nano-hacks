@@ -1,7 +1,7 @@
 # jetson-nano-hacks
 Jetson nanon setup and other utilities
 
-## Steps for jetson nano setup to make it ready for robitics vision. 
+## Steps for jetson nano setup to make it ready for robotics vision. 
 Jetson Nano I got is from [seedstudio with J101 carrier board](https://www.seeedstudio.com/NVIDIAr-Jetson-Nanotm-Developer-Kit-p-2916.html). It comes with 16 GB emmc storage and pre-installed ubuntu OS.
 
 1. Use atleast 64 GB sdcard.
