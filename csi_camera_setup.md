@@ -1,5 +1,23 @@
 # CSI Camera Setup and test
 
+## Test using nvgstcapture
+### Follow tutorial on [nvidia site](https://developer.nvidia.com/embedded/learn/tutorials/first-picture-csi-usb-camera)
+
+```
+nvgstcapture-1.0 --help
+
+# Test for csi camera on /dev/video0
+nvgstcapture-1.0
+nvgstcapture-1.0 --orientation 2
+
+# Testing multiple csi input cameras
+
+nvgstcapture-1.0 --orientation 2 --sensor-id=0
+nvgstcapture-1.0 --orientation 2 --sensor-id=1
+
+```
+
+
 ## Test using gst-launch-1.0/Gstreamer
 [Installing gstreamer](https://gstreamer.freedesktop.org/documentation/installing/on-linux.html?gi-language=c)
 
