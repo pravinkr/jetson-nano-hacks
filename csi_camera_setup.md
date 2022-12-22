@@ -1,5 +1,18 @@
 # CSI Camera Setup and test
 
+## Testing using opencv
+
+Clone this [repo](https://github.com/pravinkr/jetson-nano-hacks-CSI-Camera) and run python scripts to test single and dual cameras.
+```
+$ python simple_camera.py
+$ python face_detect.py
+$ python3 dual_camera.py
+
+```
+
+
+
+
 ## Test using nvgstcapture
 ### Follow tutorial on [nvidia site](https://developer.nvidia.com/embedded/learn/tutorials/first-picture-csi-usb-camera)
 
