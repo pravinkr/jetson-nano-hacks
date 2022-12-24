@@ -99,7 +99,7 @@ $ gst-launch-1.0 nvarguscamerasrc sensor_id=0 ! \
 ## Stereo camera driver for ROS.
 The driver is needed to capture images from left and right camera and publish on ros image topics.
 
-Follow this [link](https://github.com/borongyuan/jetson_csi_stereo_ros) for ros driver/packages installation.
+Follow this [link](https://github.com/pravinkr/jetson_csi_stereo_ros) for ros driver/packages installation.
 
 
 
