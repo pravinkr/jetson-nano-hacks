@@ -14,7 +14,8 @@ sudo apt install nvidia-jetpack
 
 ```
 4. install opencv - Follow this [link](https://automaticaddison.com/how-to-install-opencv-4-5-on-nvidia-jetson-nano/).
-   openCV installation takes time and fails as well. Ensure you cross verify the open cv instllation by checking headers files are generated at /usr/include/opencv folder.
+   - openCV installation takes time and fails as well. Ensure you cross verify the open cv instllation by checking headers files are generated at /usr/include/opencv folder.
+   - Use sudo for executing make commands else build fails due to permission issues.
 
 6. install ros - Follow this [link](https://www.waveshare.com/wiki/Install_ROS_System_on_Jetson_Nano_%26_Environment_Cofiguration)
 ```
