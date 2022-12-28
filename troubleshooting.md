@@ -7,3 +7,11 @@ Solution: Refer this [link](https://forums.developer.nvidia.com/t/error-generate
   This may happen if there is another session using this same camera (hung or alive) and try to use same camera again; if this issue is happening sometimes. You can close all sessions and reset the nvargus-daemon to reset the argus framework and try nvgstcapture-1.0 again.
 
   sudo service nvargus-daemon restart
+
+2. How to find JetPack version
+
+Run command
+```
+sudo apt-cache show nvidia-jetpack
+```
+
