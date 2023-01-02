@@ -108,10 +108,10 @@ Follow this [link](https://github.com/pravinkr/jetson_csi_stereo_ros) for ros dr
 ```
 
 
-# Steps for generating depth maps
+# Steps for generating depth maps (Follow this [link]() for detailed explanation)
 
 Prereqisites:
-   - Stereo cameras are calibrated.
+   Stereo cameras are calibrated.
 
 ```
    # If not calibrated, run the below 2 scripts and stat calibration.
@@ -131,6 +131,9 @@ Prereqisites:
    
    
    - Images are being published in ros topics /stereo/left/image_raw and /stereo/right/image_raw.
+   ```
+      $ roslaunch jetson_csi_stereo_ros jetson_csi_stereo_pipeline.launch
+   ```
    
 
 
