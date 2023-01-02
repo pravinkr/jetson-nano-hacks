@@ -105,8 +105,6 @@ The driver is needed to capture images from left and right camera and publish on
 Follow this [link](https://github.com/pravinkr/jetson_csi_stereo_ros) for ros driver/packages installation.
 
 
-```
-
 
 # Steps for generating depth maps (Follow this [link](https://github.com/pravinkr/jetson_csi_stereo_ros) for detailed explanation)
 
@@ -117,7 +115,7 @@ Prereqisites:
    # If not calibrated, run the below 2 scripts and stat calibration.
    
    # Script 1: To start the stereo camera. Publish images in rostopics 
-   # . 01_run_stereo_cam.sh
+   #. 01_run_stereo_cam.sh
    
    $ roslaunch jetson_csi_stereo_ros jetson_csi_stereo_pipeline.launch
    
