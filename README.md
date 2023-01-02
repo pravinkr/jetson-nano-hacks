@@ -39,7 +39,7 @@ ssh nvidia@192.168.29.171
 # CSI Camera Setup and test
 
 1. Connect mono/stereo camera via CSI port.
-2. Camera Testing
+2. Camera Testing (Follow this [link](https://github.com/adolfos94/ROS-Stereo-Vision) for testing drivers including IMU sensors.
 
 
 ## Testing using opencv
