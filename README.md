@@ -108,7 +108,7 @@ Follow this [link](https://github.com/pravinkr/jetson_csi_stereo_ros) for ros dr
 ```
 
 
-# Steps for generating depth maps (Follow this [link]() for detailed explanation)
+# Steps for generating depth maps (Follow this [link](https://github.com/pravinkr/jetson_csi_stereo_ros) for detailed explanation)
 
 Prereqisites:
    Stereo cameras are calibrated.
